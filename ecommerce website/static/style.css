@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 50px; /* To prevent navbar from overlapping content */
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+
+
+/* style.css */
+.hover-effect:hover {
+    background-color: #444; /* Dark background on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.nav-link{
+    color: black;
+}
+
+.section{
+    background-color: aquamarine;
+}
+
+.scrollable-content {
+    max-height: 500px; /* Adjust this based on how much space you want visible */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+/* Ensure carousel images span the full width and height */
+.carousel-inner {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-item img {
+    width: 100%; /* Ensure images stretch full width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Optional: Remove any unwanted padding or margins around the carousel */
+.carousel {
+    margin-left: -20%;
+    margin-right: -20%;
+    
+}
+
